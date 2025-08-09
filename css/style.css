@@ -1371,6 +1371,7 @@ footer {
 
 @media (max-width: 576px) {
   .hero-text {
-    font-size: 1.98rem;
+    font-size: clamp(1.9rem, 5vw, 2.5rem);
+    white-space: normal;
   }
 }
